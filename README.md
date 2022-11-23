@@ -1,1 +1,1 @@
-# Go-lang :rocket: :run: :cat: :dog:
+# Go-lang :rocket: :running: :cat: :dog:
