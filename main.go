@@ -14,7 +14,7 @@ func main() {
 	region := "YOUR REGION"
 	sess := session.Must(session.NewSession())
 
-	svc := secretsmanager.New(sess, aws.NewConfig().WithRegion(region))
+	svc :=  secretsmanager.New(sess, aws.NewConfig().WithRegion(region))
 
 	result, err := svc.GetSecretValue(&secretsmanager.GetSecretValueInput{SecretId: &secretName})
 	if err != nil {
