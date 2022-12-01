@@ -12,6 +12,7 @@ import (
 func main() {
 	secretName := "YOUR SECRETS MANAGER NAME"
 	region := "YOUR REGION"
+
 	sess := session.Must(session.NewSession())
 
 	svc := secretsmanager.New(sess, aws.NewConfig().WithRegion(region))
