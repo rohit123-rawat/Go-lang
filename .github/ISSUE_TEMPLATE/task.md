@@ -4,7 +4,6 @@ about: Task that needs to be done
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
 **Describe the task**
