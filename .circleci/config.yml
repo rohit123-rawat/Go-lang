@@ -6,13 +6,9 @@ jobs:
     docker:
       - image: circleci/golang:1.15.8
     steps:
-      - checkout
       - restore_cache:
           keys:
             - go-mod-v4-{{ checksum "go.sum" }}
-      - run:
-          name: Install Dependencies
-          command: go mod download
         - run:
             name: Run tests
             command: make run-tests
