@@ -1,3 +1,3 @@
-module go-lang
+module rohit
 
 go 1.19
