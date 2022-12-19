@@ -1,0 +1,6 @@
+{"level":"info","ts":"2022-12-19T12:55:46.296+0530","caller":"Go-lang/main.go:15","msg":"INFO log level message"}
+{"level":"warn","ts":"2022-12-19T12:55:46.296+0530","caller":"Go-lang/main.go:16","msg":"Warn log level message"}
+{"level":"error","ts":"2022-12-19T12:55:46.296+0530","caller":"Go-lang/main.go:17","msg":"Error log level message","stacktrace":"main.main\n\t/Users/rohitrawat/Documents/Rohit/MyGolangProject/Go-lang/main.go:17\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:250"}
+{"level":"info","ts":"2022-12-19T13:06:33.063+0530","caller":"Go-lang/main.go:13","msg":"INFO log level message"}
+{"level":"warn","ts":"2022-12-19T13:06:33.063+0530","caller":"Go-lang/main.go:14","msg":"Warn log level message"}
+{"level":"error","ts":"2022-12-19T13:06:33.063+0530","caller":"Go-lang/main.go:15","msg":"Error log level message","stacktrace":"main.main\n\t/Users/rohitrawat/Documents/Rohit/MyGolangProject/Go-lang/main.go:15\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:250"}
