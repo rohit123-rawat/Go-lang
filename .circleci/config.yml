@@ -11,7 +11,7 @@ jobs:
           name: Install Dependencies
           command: go mod download
       - run:
-          name: Run tests
+          name: Run test
           command: go test -v ./...
 
 workflows:
